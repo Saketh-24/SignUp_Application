@@ -1,0 +1,23 @@
+.container
+{
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    background-color: palegreen;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.inputform
+{
+    margin-top: 20px;
+}
+
+input
+{
+    margin-left: 5px;
+    border-radius: 3px;
+}
