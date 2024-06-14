@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import LoginSignup from './Components/LoginSignUp/LoginSignup';
 
@@ -5,7 +6,7 @@ import LoginSignup from './Components/LoginSignUp/LoginSignup';
 function App() {
   return (
     <div>
-       <LoginSignup/>
+      <LoginSignup/>
     </div>
   );
 }
