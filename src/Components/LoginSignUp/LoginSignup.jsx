@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react';
 import "./LoginSignup.css"
 import emailIcon from '../Assets/email.png';
 import passwordIcon from '../Assets/password.png';
@@ -8,12 +9,13 @@ import personIcon from '../Assets/person.png';
 
 function LoginSignup()
 {
+const [action,setAction] = useState("Login")
   return (
     <div className="main">
         <div className='container'>
 
-        <div className="title">
-        <header>SignUp</header>
+        <div className="login-title">
+        <header>{action}</header>
         </div>
 
         <div className='inputform'>
@@ -32,8 +34,8 @@ function LoginSignup()
         </div>
 
         <div className="buttons">
-            <button className="login">Login</button>
-            <button className="signup">SignUp</button>
+            <button className={action==="Login"?"blue":"white"} onClick={()=>{setAction("Login")}}>Login</button>
+            <button className={action==="Login"?"white":"blue"} onClick={()=>{setAction("SignUp")}}>SignUp</button>
         </div>
 
     </div>
