@@ -6,17 +6,28 @@
     justify-content: space-around;
     width: 100%;
     border: 2px solid black;
-    background: radial-gradient(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgb(187, 187, 187) 90%);
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
 }
 
 .links
 {
-    color: black;
+    border: 2px solid transparent;
+    color: white;
     padding: 5px 15px;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .title
 {
     padding: 5px 50px;
+    cursor: pointer;
+}
+
+.links:hover
+{
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0 0 50px rgb(243, 249, 255);
 }

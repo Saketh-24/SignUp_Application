@@ -18,17 +18,17 @@ function LoginSignup()
 
         <div className='inputform'>
             <img src={personIcon} alt="" />
-            <input style={{ width: '240px', height: '25px' }} type="text" placeholder='Full name' />
+            <input style={{ width: '240px', height: '35px' }} type="text" placeholder='Full name' />
         </div>
 
         <div className='inputform'>
             <img src={emailIcon} alt="" />
-            <input style={{ width: '240px', height: '25px' }} type="text" placeholder='Email' />
+            <input style={{ width: '240px', height: '35px' }} type="text" placeholder='Email' />
         </div>
 
         <div className='inputform'>
             <img src={passwordIcon} alt="" />
-            <input style={{ width: '240px', height: '25px' }} type="password" placeholder='Password' />
+            <input style={{ width: '240px', height: '35px' }} type="password" placeholder='Password' />
         </div>
 
         <div className="buttons">
