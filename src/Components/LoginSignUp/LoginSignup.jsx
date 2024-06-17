@@ -18,10 +18,10 @@ const [action,setAction] = useState("Login")
         <header>{action}</header>
         </div>
 
-        <div className='inputform'>
+        {action==="Login"?<div></div>: <div className='inputform'>
             <img src={personIcon} alt="" />
             <input style={{ width: '240px', height: '35px' }} type="text" placeholder='Full name' />
-        </div>
+        </div>}
 
         <div className='inputform'>
             <img src={emailIcon} alt="" />
@@ -33,6 +33,9 @@ const [action,setAction] = useState("Login")
             <input style={{ width: '240px', height: '35px' }} type="password" placeholder='Password' />
         </div>
 
+        
+        {action==="Login"?<span className='Forgot'>Forgot password?<a href='#'>Click here</a></span>:<span></span>}
+        
         <div className="buttons">
             <button className={action==="Login"?"blue":"white"} onClick={()=>{setAction("Login")}}>Login</button>
             <button className={action==="Login"?"white":"blue"} onClick={()=>{setAction("SignUp")}}>SignUp</button>

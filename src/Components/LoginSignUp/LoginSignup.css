@@ -85,7 +85,7 @@ input
     background: #fff;
     width: 90px;
     height: 35px;
-    border: 2px solid black;
+    border: 2px solid rgb(39, 36, 36);
   }
   
   .white:hover {
@@ -114,3 +114,9 @@ input
     box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
     cursor: pointer;
   }
+
+.Forgot
+{
+    display: block;
+    padding-top: 10px;
+}
