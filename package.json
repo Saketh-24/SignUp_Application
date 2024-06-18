@@ -1,0 +1,17 @@
+{
+  "name": "sign-up-application",
+  "version": "1.0.0",
+  "description": "This is a signup application to verify whether you are registered user. if not signup by filling the required fields so that you can login easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd signupbackend && npm start",
+    "client": "cd signupfrontend && npm start"
+  },
+  "author": "Saketh Reddy",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

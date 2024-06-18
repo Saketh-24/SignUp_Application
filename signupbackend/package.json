@@ -7,9 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "Saketh Reddy", 
+  "author": "Saketh Reddy",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "express-async-handler": "^1.2.0",
     "mongoose": "^8.4.3",
