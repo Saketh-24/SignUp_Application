@@ -120,3 +120,8 @@ input
     display: block;
     padding-top: 10px;
 }
+
+.welcome-message{
+    color: black;
+    text-align: center;
+}
